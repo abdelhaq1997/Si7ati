@@ -1,8 +1,9 @@
 {
   "name": "صحتي+",
   "short_name": "صحتي+",
-  "description": "تطبيق صحتك الشخصي لزيادة الوزن وتحسين اللياقة",
-  "start_url": "./index.html",
+  "description": "تطبيق صحي محلي لتتبع الوزن والتغذية والماء والنوم والرياضة والمزاج",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#10b981",
@@ -11,9 +12,16 @@
   "dir": "rtl",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%2310b981'/><text y='130' x='96' text-anchor='middle' font-size='100' font-family='Arial'>💪</text></svg>",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='32' fill='%2310b981'/%3E%3Ctext y='130' x='96' text-anchor='middle' font-size='100' font-family='Arial'%3E%F0%9F%92%AA%3C/text%3E%3C/svg%3E",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%2310b981'/%3E%3Ctext y='345' x='256' text-anchor='middle' font-size='250' font-family='Arial'%3E%F0%9F%92%AA%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
   ],
   "categories": ["health", "fitness", "lifestyle"]
